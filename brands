@@ -1,0 +1,20 @@
+<section id="brands">
+
+<h2>Top Trusted Brands</h2>
+
+<div class="brands">
+
+<div class="card">aFe Power</div>
+<div class="card">Garrett</div>
+<div class="card">H&R Springs</div>
+<div class="card">Turbosmart</div>
+<div class="card">Whipple</div>
+<div class="card">Borla</div>
+<div class="card">Eibach</div>
+<div class="card">NGK</div>
+<div class="card">ProCharger</div>
+<div class="card">Edelbrock</div>
+
+</div>
+
+</section>
