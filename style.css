@@ -1,24 +1,91 @@
 body {
-    background: #111;
-    color: white;
-    font-family: Arial;
-    text-align: center;
-    margin: 0;
+  margin: 0;
+  background: #0d0d0d;
+  color: white;
+  font-family: Arial, sans-serif;
 }
 
-header {
-    background: #e10600;
-    padding: 80px;
+nav {
+  background: black;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 18px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: #e10600;
+}
+
+.hero {
+  background: linear-gradient(
+    rgba(0,0,0,.8),
+    rgba(0,0,0,.8)
+  );
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.logo {
+  width: 320px;
+  max-width: 90%;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-size: 50px;
+  color: #ffffff;
+}
+
+p {
+  color: #d4d4d4;
+}
+
+.button {
+  background: #e10600;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin: 10px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #ff2b2b;
 }
 
 section {
-    padding: 50px;
+  padding: 70px 20px;
+  text-align: center;
 }
 
-a {
-    background: white;
-    color: black;
-    padding: 12px 20px;
-    text-decoration: none;
-    margin: 10px;
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card {
+  background: #1a1a1a;
+  width: 280px;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #333;
+}
+
+footer {
+  background: black;
+  padding: 40px;
+  text-align: center;
 }
